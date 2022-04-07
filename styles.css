@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin: 4rem auto;
+  display: block;
+}
+
+footer {
+  background: #f5f3f4;
+  color: black;
+  text-align:center;
+  margin-top: 1rem;
+  padding: 1rem;
+}
