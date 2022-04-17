@@ -16,37 +16,53 @@
 		<meta property="og:title" content="Contact Us" />
 		<meta property="og:image" content="http://github.com/J4502-SS22/global-journalist/images/og_image.jpg" />
 		<meta property="og:site_name" content="Global Journalist" />
-	</head>
-
-	<head>
-		<title><strong>Contact Us Form</strong></title>
+		<nav>
+		  <ul>
+		    <li><a href="index.html">Home</a></li>
+		    <li><a href="about.html">About</a></li>
+		    <li><a href="contact.html">Contact</a></li>
+		        </ul>
+		</nav>
 	</head>
 
 	<body>
-			<h1>Name</h1>
-			<h2>Email</h2>
-			<h3>Message</h3>
-			<!--Insert a checkbox for people to confirm their message or submission in the Contact Us form-->
-			<!--Insert a "Submit" button for people to actually submit and send their information to us.-->
-	</body>
 
-	<head>
-		<title>About Us</title>
+		<h1>Contact Us</h1>
+		<!--Add a "Contact Us Form" h1 if we think it is necessary.-->
+		<p>Please fill out the form below to contact us. <!--"Have questions, feedback or submissions?" Add this if we want to also take submissions from people to add or feature on the Citizen Journalism website--> We would love to hear from you.</p>
+			<form action="contactform.php" method="get">
+					Name: <br> <input type="text" name="name" placeholder="Write your name here...">
+					<br>
+					Email: <br> <input type="email" name="email" placeholder="Write your email here...">
+					<br>
+					Message: <br> <textarea name="message" placeholder="Write your message here..."></textarea>
+					<br>
+					<!--Before the submit button, add a checkbox for people to confirm we have permission to post their submissions to be featured on the website if they submit an example of citizen journalism-->
+					<button type="submit" name="submit">Submit</button>
+				</form>
 
-		<h1>Cela Migan</h1>
-			<p>Insert brief biography about Cela here.</p>
-		<h2>Brooke Lincoln</h2>
-			<p>Insert brief biography about Brooke here.</p>
-		<h3>Nikki Mock</h3>
-			<p>Insert biography about Nikki here.</p>
-		<h4>Nathan Andrzejewski</h4>
-			<p>Insert brief biography about Nathan here.</p>
+			<br>
 
+			<h1>About Us</h1>
 
-<nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-        </ul>
-</nav>
+				**Might add brief explanation of why we made this website.**
+
+			<h2>Cela Migan</h2>
+				**Add headshot here.** <!--Add headshot here.-->
+				<p>Insert brief biography here.</p>
+
+			<h2>Brooke Lincoln</h2>
+				**Add headshot here.** <!--Add headshot here.-->
+				<p>Insert brief biography here.</p>
+
+			<h2>Nathan Andrzejewski</h2>
+				**Add headshot here.** <!--Add headshot here.-->
+				<p>Insert brief biography here.</p>
+
+			<h2>Nikki Mock</h2>
+				**Add headshot here.** <!--Add headshot here.-->
+				<p>Insert brief biography here.</p>
+
+				<!--Align our names, photos and bios side by side-->
+
+		</body>
