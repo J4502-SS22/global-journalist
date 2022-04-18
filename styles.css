@@ -1,7 +1,5 @@
 body {
-background-color: #f5f3f4
-}
-
+background-color: #f5f3f4;
 margin: 0;
   font-family: Fira Sans, Rufina;
 }
@@ -9,6 +7,8 @@ margin: 0;
 .topnav {
   overflow: hidden;
   background-color: #ddd;
+  width: 100%;
+  box-sizing: border-box;
 
 }
 
@@ -20,6 +20,8 @@ margin: 0;
   padding: 15px 85px;
   text-decoration: none;
   font-size: 17px;
+  width: 33.33%;
+  box-sizing: border-box;
 }
 
 .topnav a:hover {
@@ -57,27 +59,3 @@ margin: 0;
     text-align: left;
   }
 }
-
-<body>
-
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="about.html" class="active">About</a>
-  <a href="contact.html" class="active">Contact</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-
-</body>
