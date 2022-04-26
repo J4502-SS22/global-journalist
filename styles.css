@@ -4,6 +4,13 @@ margin: 0;
   font-family: Fira Sans, Rufina;
 }
 
+#content {
+  display: block;
+  width: 90%;
+  max-width: 850px;
+  margin: auto;
+}
+
 .homebody-firstpg {
   display: flex;
   justify-content: center;
