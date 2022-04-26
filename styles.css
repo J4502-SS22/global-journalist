@@ -4,6 +4,17 @@ margin: 0;
   font-family: Fira Sans, Rufina;
 }
 
+.homebody-firstpg {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.citjourn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .topnav {
   overflow: hidden;
   background-color: #ddd;
