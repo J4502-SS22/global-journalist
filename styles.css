@@ -43,6 +43,13 @@ margin: 0;
   flex-direction: row;
 }
 
+.bio{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #ddd;
@@ -97,4 +104,37 @@ margin: 0;
     display: block;
     text-align: left;
   }
+}
+
+.contact-form {
+  width:200px;
+  padding:20px;
+  box-sixing:border-box;
+  margin: 20px;
+  border:10px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.input{
+  padding: 10px;
+  margin: 10px 0;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius:10px;
+}
+
+.textarea{
+  resize: vertical;
+}
+
+.button{
+  /*remove default behavior*/
+  appearance:none;
+  padding:10px;
+  border:none;
+  background-color:#e2711d;
+  color:#fff;
+  font-weight:800;
+  border-radius:10px;
+  width:100%;
 }
