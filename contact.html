@@ -19,6 +19,7 @@
 		<script src="nav.js" defer></script>
 	</head>
 
+<body>
 	<nav class="topnav" id="myTopnav">
 		<a href="index.html">Home</a>
 		<a href="about.html">About</a>
@@ -28,43 +29,62 @@
 		</a>
 	</nav>
 
-	<body>
-			<h1>About Us</h1>
+<main id="content">
 
-				<p>This site was created in our Multimedia Planning and Design class with Patrick Garvin at the Missouri School of Journalism in Spring 2022. We have been learning about accessibility and usability this semester. One of our learning objectives is to plan, organize and design a website using the concepts we've learned in class. Using HTML, CSS and Javascript, we teamed up to create a website with usability and accessibility in mind.
+	<div class="contact-form">
+					<h1>Contact Us</h1>
+					<!--Add a "Contact Us Form" h1 if we think it is necessary.-->	<p>Please fill out the form below to contact us.<!--"Have questions, feedback or submissions?" Add this if we want to also take submissions from people to add or feature on the Citizen Journalism website--> We would love to hear from you.</p> <br>
+						<form action="contactform.php" method="get">
+								Full Name: <br><input type="text" name="name" placeholder="Write your name here..."><br>
+								Email: <br><input type="email" name="email" placeholder="Write your email here..."><br>
+								Message: <br><textarea name="message" placeholder="Write your message here..."></textarea class="textarea"><br>
+								<!--Before the submit button, add a checkbox for people to confirm we have permission to post their submissions to be featured on the website if they submit an example of citizen journalism-->
+								<button type="button" name="submit" class="button" onclick="alert('Thanks for contacting us. We will get back to you as soon as possible.')"><strong>Submit</strong></button>
+								<!--Make sure the "submit" button is actually clicklable. I have an on-click message but need to see if information input into the form can actually be submitted via the button if people tried to contact us.-->
+							</form>
+						</div>
 
-<!--Have our names above our headshot photos. Move biography below each image.-->
+			<h1>About This Website</h1>
+
+				<p>This site was created in our Multimedia Planning and Design class with Patrick Garvin at the Missouri School of Journalism in Spring 2022. We have been learning about accessibility and usability this semester. One of our learning objectives is to plan, organize and design a website using the concepts we've learned in class. Using HTML, CSS and Javascript, we teamed up to create a website with usability and accessibility in mind.</p><br>
+
+			<h1>Who Made This Site</h1>
 
 <div class="about">
-			<h2>Cela Migan</h2>
-				<img src="Migan, Cela-Headshot.jpg" alt="Headshot of Cela Migan. Outside, with bold fall colors of a tree in the background, Cela is standing up and dressed in a white sweater and plaid gray blazer." width="150" height="225">
+<section class="person">
+			<h2 class="ourname">Cela Migan</h2>
+			<div class="person-details">
+				<img src="Migan, Cela-Headshot.jpg" id="cela" alt="Headshot of Cela Migan. Outside, with bold fall colors of a tree in the background, Cela is standing up and dressed in a white sweater and plaid gray blazer." width="100%" height="225">
 				<p class="bio">Cela Migan is a junior studying Journalism with an emphasis in Social Media and Audience Strategy, and a minor in Sociology at the University of Missouri. </p>
-			<h2>Brooke Lincoln</h2>
-				<img src="Lincoln, Brooke-Headshot.jpg" alt="Headshot of Brooke Lincoln. Outside, with fall trees and part of the Missouri School of Journalism in the background, she is standing up with her arms crossed. She is dressed in a white blouse and black blazer on the University of Missouri campus." width="150" height="225">
+			</div>
+</section>
+
+<section class="person">
+			<h2 class="ourname">Brooke Lincoln</h2>
+			<div class="person-details">
+				<img src="Lincoln, Brooke-Headshot.jpg" id="brooke" alt="Headshot of Brooke Lincoln. Outside, with fall trees and part of the Missouri School of Journalism in the background, she is standing up with her arms crossed. She is dressed in a white blouse and black blazer on the University of Missouri campus." width="100%" height="225">
 				<p class="bio">Brooke Lincoln is a senior studying Strategic Communication with a minor in Spanish at the University of Missouri. </p> <!--Try to fix the sixing of my headshot, and use flexbox to rearrange them across the page instead-->
+			</div>
+</section>
 
-<div class="about2">
-			<h2>Nathan Andrzejewski</h2>
-				<img src="AndskiVertical.png" alt="Headshot of Nathan Andrzejewski. Nathan is dressed in Mizzou black and gold. He is wearing a black and gold patterned tie, white shirt and black blazer. " width="225" height="175">
+	<section class="person">
+			<h2 class="ourname">Nathan Andrzejewski</h2>
+			<div class="person-details">
+				<img src="AndskiVertical.png" id="nathan" alt="Headshot of Nathan Andrzejewski. Nathan is dressed in Mizzou black and gold. He is wearing a black and gold patterned tie, white shirt and black blazer. " width="100%" height="225">
 				<p class="bio">Nathan Andrzejewski is a senior Strategic Communication student with a minor in business at the University of Missouri.</p>
-			<h2>Nikki Mock</h2>
-				<img src="NikkiMock-Headshot.JPEG" alt="Headshot of Nikki Mock. Nikki wears a black blouse while standing in front of a gray background." width="150" height="225">
-				<p class="bio">Nikki Mock is a senior Strategic Communication major with a minor in psychology at the University of Missouri.</p>
-</div>
-							<br>
+			</div>
+	</section>
 
-				<!--Align our names, photos and bios side by side in CSS-->
-<div class="contact-form" id="contact-form">
-				<h1>Contact Us</h1>
-				<!--Add a "Contact Us Form" h1 if we think it is necessary.-->	<p>Please fill out the form below to contact us.<!--"Have questions, feedback or submissions?" Add this if we want to also take submissions from people to add or feature on the Citizen Journalism website--> We would love to hear from you.</p> <br>
-					<form action="contactform.php" method="get">
-							Full Name: <br><input type="text" name="name" placeholder="Write your name here..."><br>
-							Email: <br><input type="email" name="email" placeholder="Write your email here..."><br>
-							Message: <br><textarea name="message" placeholder="Write your message here..."></textarea class="textarea"><br>
-							<!--Before the submit button, add a checkbox for people to confirm we have permission to post their submissions to be featured on the website if they submit an example of citizen journalism-->
-							<button type="submit" name="submit" class="button">Submit</button>
-						</form>
-					</div>
+<section class="person">
+			<h2 class="ourname">Nikki Mock</h2>
+			<div class="person-details">
+				<img src="NikkiMock-Headshot.JPEG" id="nikki" alt="Headshot of Nikki Mock. Nikki wears a black blouse while standing in front of a gray background." width="100%" height="225">
+				<p class="bio">Nikki Mock is a senior Strategic Communication major with a minor in psychology at the University of Missouri.</p>
+			</div>
+			</section>
+
+</div>
+
 </main>
 
 		</body>
