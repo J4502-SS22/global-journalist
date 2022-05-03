@@ -1,6 +1,28 @@
 body {
 background-color: #f5f3f4;
 margin: 0;
+font-family: 'Oxygen', Arial;
+font-weight: normal;
+}
+
+h1 {
+  font-family: 'Bevan', Arial;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Bevan', Arial;
+  font-weight: bolder;
+}
+
+p {
+  font-family: 'Oxygen', Arial;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Bevan', Arial;
+  font-weight: 600;
 }
 
 #content {
@@ -28,26 +50,12 @@ margin: 0;
   flex-wrap: wrap;
   }
 
-  h1 {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 700, bold, sans-serif;
-  }
-
-  h2 {
-    font-family: 'Rufina', sans-serif;
-    font-weight: 700, bold, sans-serif;
-  }
-
-  p {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 300, lighter, sans-serif;
-  }
-
 .contact-form {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: 'Oxygen', Arial;
 }
 
 .about {
