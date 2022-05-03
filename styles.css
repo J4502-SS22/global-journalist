@@ -7,7 +7,7 @@ font-weight: normal;
 
 h1 {
   font-family: 'Rufina', Arial;
-  font-weight: bold;
+  font-weight: 500px;
 }
 
 h2 {
@@ -79,6 +79,7 @@ h3 {
   background-color: #ddd;
   width: 100%;
   box-sizing: border-box;
+  font-family: 'Oxygen', Arial;
 
 }
 
