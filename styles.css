@@ -31,6 +31,12 @@ h3 {
   margin: auto;
 }
 
+#aboutcitjourn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .homebody-firstpg {
   display: flex;
   justify-content: center;
