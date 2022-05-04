@@ -37,6 +37,18 @@ h3 {
   flex-wrap: wrap;
 }
 
+.welcome {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.welcome-pg {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .citjourn {
   display: flex;
   justify-content: center;
@@ -45,7 +57,7 @@ h3 {
 
 .contact {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   }
 
